@@ -1,0 +1,70 @@
+<Application x:Class="RPGCharacterManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <!-- Pixel Palette -->
+        <SolidColorBrush x:Key="PixelBg" Color="#1A1A1A"/>
+        <SolidColorBrush x:Key="PixelPanel" Color="#2D2D2D"/>
+        <SolidColorBrush x:Key="PixelBorder" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="PixelAccent" Color="#FFD700"/>
+        <SolidColorBrush x:Key="PixelText" Color="#E0E0E0"/>
+
+        <!-- Retro Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4A4A4A"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PixelBorder}"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#666666"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource PixelAccent}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Padding" Value="12,7,8,3"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Pixel Slot Style -->
+        <Style x:Key="ItemSlot" TargetType="Border">
+            <Setter Property="Width" Value="64"/>
+            <Setter Property="Height" Value="64"/>
+            <Setter Property="BorderThickness" Value="4"/>
+            <Setter Property="BorderBrush" Value="#888888"/>
+            <Setter Property="Background" Value="#000000"/>
+            <Setter Property="Margin" Value="5"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="{StaticResource PixelAccent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Retro TextBox Style -->
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#333333"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="CaretBrush" Value="White"/>
+        </Style>
+    </Application.Resources>
+</Application>

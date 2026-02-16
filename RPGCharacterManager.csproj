@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>RPGCharacterManager</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Characters\hero1.png" />
+    <None Remove="Assets\Characters\hero1_original.png" />
+    <None Remove="Assets\Characters\hero2.png" />
+    <None Remove="Assets\Characters\hero2_original.png" />
+    <None Remove="Assets\Items\empty_slot.png" />
+    <None Remove="Assets\Items\empty_slot_original.png" />
+    <None Remove="Assets\Items\shield.png" />
+    <None Remove="Assets\Items\shield_original.png" />
+    <None Remove="Assets\Items\sword.png" />
+    <None Remove="Assets\Items\sword_original.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Characters\hero1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Characters\hero1_original.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Characters\hero2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Characters\hero2_original.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Items\empty_slot.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Items\empty_slot_original.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Items\shield.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Items\shield_original.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Items\sword.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Items\sword_original.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

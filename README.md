@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RPG Character Manager - Féléves feladat (NIXSG1LBNE/SZTGUI_LA_02)
 
 **2025/26/2 - Szoftvertechnológia és grafikus felhasználói interfész tervezése**  
@@ -89,3 +90,35 @@ RPGCharacterManager/
 ---
 
 > **Megjegyzés:** A projekt célja, hogy demonstrálja a félév során tanult WPF és grafikus felhasználói interfész tervezési ismereteket, rétegezett architektúrát és verziókezelés használatát.
+=======
+# RPG Character Manager - Féléves feladat
+
+**Kurzus:** 2025/26/2 - Szoftvertechnológia és grafikus felhasználói interfész tervezése (NIXSG1LBNE/SZTGUI_LA_02)
+**Intézmény:** Óbudai Egyetem
+
+## 👤 Személyes adatok
+- **Név:** Nagy István Bence
+- **Neptun kód:** DP3HYC
+- **Labor azonosító:** 02
+
+## 🎮 Projekt leírása
+Ez az alkalmazás egy egyszerű RPG karakterkezelő rendszer, amely WPF keretrendszerben készült az MVVM (Model-View-ViewModel) tervezési minta mentén. A projekt célja a félév során tanult technikák (adatkötés, eseménykezelés, rétegezett architektúra) gyakorlati bemutatása.
+
+### Főbb funkciók:
+- Karakterek listázása és alapvető adatok megjelenítése.
+- Részletes statisztikák szerkesztése külön ablakban (`StatEditorWindow`).
+- Inventory kezelés (tárgyak listázása).
+- MVVM alapú adatkötés és parancskezelés (`RelayCommand`).
+
+## 📁 Projekt struktúra
+- **Models/**: `Character.cs`, `InventoryItem.cs` (Adatmodellek)
+- **Services/**: `CharacterService.cs` (CRUD műveletek és adatperzisztencia)
+- **ViewModels/**: `MainWindowViewModel.cs`, `StatEditorViewModel.cs` (Üzleti logika)
+- **Views/**: `MainWindow.xaml`, `StatEditorWindow.xaml` (Felhasználói felület)
+
+## 🔧 Alkalmazott technológiák
+- **WPF (.NET 6.0+)**
+- **MVVM minta**
+- **ObservableCollection & INotifyPropertyChanged**
+- **Git verziókezelés**
+>>>>>>> 26abe1a (Feleves feladat inicializálás: MainWindow, StatEditor, Inventory)

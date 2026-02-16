@@ -1,0 +1,10 @@
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+.idea/
+*.sln.iml
+*.swp
+*.bak
+*.log
