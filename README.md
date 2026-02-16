@@ -31,24 +31,20 @@ A projekt demonstrálja a WPF és MVVM alapú fejlesztéshez szükséges gyakorl
 ## 📁 Projekt struktúra (terv)
 
 RPGCharacterManager/
-│
 ├─ Models/
-│ ├─ Character.cs
-│ └─ InventoryItem.cs
-│
+│   ├─ Character.cs
+│   └─ InventoryItem.cs
 ├─ Services/
-│ └─ CharacterService.cs
-│
+│   └─ CharacterService.cs
 ├─ ViewModels/
-│ ├─ MainWindowViewModel.cs
-│ └─ StatEditorViewModel.cs
-│
+│   ├─ MainWindowViewModel.cs
+│   └─ StatEditorViewModel.cs
 ├─ Views/
-│ ├─ MainWindow.xaml
-│ └─ StatEditorWindow.xaml
-│
+│   ├─ MainWindow.xaml
+│   └─ StatEditorWindow.xaml
 ├─ README.md
 └─ RPGCharacterManager.sln
+
 
 
 ---
