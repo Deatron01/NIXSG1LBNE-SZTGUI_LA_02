@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RPG Character Manager - Féléves feladat (NIXSG1LBNE/SZTGUI_LA_02)
 
 **2025/26/2 - Szoftvertechnológia és grafikus felhasználói interfész tervezése**  
