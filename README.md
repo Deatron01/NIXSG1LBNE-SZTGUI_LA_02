@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="./.github/assets/banner.svg" alt="NIXSG1LBNE-SZTGUI_LA_02 — Software technology and GUI design: coursework." width="100%" />
-</p>
+<h1 align="center">NIXSG1LBNE-SZTGUI_LA_02</h1>
 
 <p align="center">
+  Software technology and GUI design: coursework.<br />
   <samp>COURSEWORK · ÓBUDA UNIVERSITY · SPRING 2025/26</samp><br />
   <samp><a href="https://main.elearning.uni-obuda.hu/course/view.php?id=16550">COURSE PAGE ↗</a></samp>
 </p>
@@ -47,5 +46,7 @@ tell whose project this is.
 <br />
 
 <p align="center">
+  <a href="https://github.com/Deatron01"><img src="https://raw.githubusercontent.com/Deatron01/Deatron01/main/assets/icon.png" width="56" alt="Dea" /></a><br />
+  <sub><i>Little chaos in a quiet mind.</i></sub><br />
   <sub><samp>MORE WORK AT <a href="https://github.com/Deatron01">GITHUB.COM/DEATRON01</a></samp></sub>
 </p>
